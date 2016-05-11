@@ -9,7 +9,7 @@ import springimdb.model.Artist;;
 public class ArtistDAO implements IArtistDAO{
 
 	private SessionFactory sf ;
-	//= HibernateUtil.getSessionFactory();	
+
 
 	@SuppressWarnings("unchecked")
 	public Collection<Artist> getArtists() {
